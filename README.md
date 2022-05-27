@@ -1,6 +1,6 @@
 # Simple Capacitor plugin #
 
-This repository contains the code for a simple Capacitor, see folder [helferlein](helferlein).
+This repository contains the code for a simple Capacitor plugin called "helferlein", see [this folder](helferlein).
 Further, the repository also contains a Ionic/Angular app that demonstrates the usage of this plugin, see folder [plugintest](plugintest).
 
 The plugin contains two methods, see also [definitions.ts](helferlein/src/definitions.ts):
