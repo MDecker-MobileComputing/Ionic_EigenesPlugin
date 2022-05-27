@@ -10,8 +10,26 @@ The plugin contains two methods, see also [definitions.ts](helferlein/src/defini
 <br>
 
 ----
+## Usage ##
+
+In [the folder for the plugin](helferlein) the following commands have to be called:
+* `npm install`
+* `npm run build` 
+
+The latter has also to be called after each change of the plugin implementation 
+
+<br>
+
+In [the folder for the Ionic app](plugintest) the following commands have to be called:
+* `npm install`
+* ...
+
+<br>
+
+----
 ## License ##
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License)
 for the files in this repository.
 
+<br>
