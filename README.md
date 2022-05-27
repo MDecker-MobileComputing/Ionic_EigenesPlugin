@@ -12,17 +12,16 @@ The plugin contains two methods, see also [definitions.ts](helferlein/src/defini
 ----
 ## Usage ##
 
-In [the folder for the plugin](helferlein) the following commands have to be called:
-* `npm install`
-* `npm run build` 
-
-The latter has also to be called after each change of the plugin implementation 
+After cloning the repository, the command `npm install` has to be executed in both folders, 
+i.e., in the [folder for the plugin](helferlein) and also in the [folder for the Ionic application](plugintest).
 
 <br>
 
-In [the folder for the Ionic app](plugintest) the following commands have to be called:
-* `npm install`
-* ...
+When changes were made in the plugin code, then the following commands have to be executed:
+* In the [folder for the plugin](helferlein): `npm run build`
+* In the [folder for the Ionic application](plugintest): 
+  * `npm update helferlein` 
+  * `ionic capacitor sync android`
 
 <br>
 
