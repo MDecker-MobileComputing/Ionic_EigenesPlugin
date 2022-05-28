@@ -10,9 +10,10 @@ export class HomePage {
 
   public uptimeString : string = "";
 
+
   public async onUptimeHolenButton() {
 
-     let ergebnis = await Helferlein.holeUptime();
+     const ergebnis = await Helferlein.holeUptime();
 
      this.uptimeString = ergebnis.value;
 
