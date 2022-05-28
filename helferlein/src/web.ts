@@ -1,6 +1,6 @@
 import { WebPlugin } from '@capacitor/core';
-
 import type { HelferleinPlugin } from './definitions';
+
 
 export class HelferleinWeb extends WebPlugin implements HelferleinPlugin {
 
@@ -9,12 +9,14 @@ export class HelferleinWeb extends WebPlugin implements HelferleinPlugin {
     return options;
   }
 
+
   async holeUptime(): Promise<{ value: string }> {
 
     return {
       value: "Uptime für Platform >web< nicht implementiert."
     };
   }
+
 
   loggeNachricht(options: { loglevel: string, nachricht: string }): void {
 
