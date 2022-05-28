@@ -12,6 +12,7 @@ The plugin contains two methods, see also [definitions.ts](helferlein/src/defini
 <br>
 
 ----
+
 ## Usage ##
 
 After cloning the repository, the command `npm install` has to be executed in both folders, 
@@ -28,6 +29,7 @@ When changes were made in the plugin code, then the following commands have to b
 <br>
 
 ----
+
 ## License ##
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License)
