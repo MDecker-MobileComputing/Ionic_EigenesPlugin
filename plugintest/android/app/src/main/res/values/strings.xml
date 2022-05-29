@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">plugintest</string>
-    <string name="title_activity_main">plugintest</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_name">Plugin-Test</string>
+    <string name="title_activity_main">Plugin-Test</string>
+    <string name="package_name">de.mide.ionic.plugintest</string>
+    <string name="custom_url_scheme">de.mide.ionic.plugintest</string>
 </resources>
