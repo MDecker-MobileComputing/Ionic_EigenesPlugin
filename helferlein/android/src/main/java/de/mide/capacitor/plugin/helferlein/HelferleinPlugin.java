@@ -51,13 +51,14 @@ public class HelferleinPlugin extends Plugin {
 
         switch (level) {
 
-            case "VERBOSE": Log.v(tag4logging, logString ); break;
-            case "DEBUG"  : Log.d(tag4logging, logString ); break;
-            case "INFO"   : Log.i(tag4logging, logString ); break;
-            case "WARN"   : Log.w(tag4logging, logString ); break;
-            case "ERROR"  : Log.e(tag4logging, logString ); break;
+            case "VERBOSE": Log.v(tag4logging, logString); break;
+            case "DEBUG"  : Log.d(tag4logging, logString); break;
+            case "INFO"   : Log.i(tag4logging, logString); break;
+            case "WARN"   : Log.w(tag4logging, logString); break;
+            case "ERROR"  : Log.e(tag4logging, logString); break;
             default:
-                Log.w(tag4logging, "Nachricht für unbekanntes Log-Level \"" + level + "\": " + logString);
+                Log.w(tag4logging,
+                        "Nachricht für unbekanntes Log-Level \"" + level + "\": " + logString);
         }
     }    
 }
