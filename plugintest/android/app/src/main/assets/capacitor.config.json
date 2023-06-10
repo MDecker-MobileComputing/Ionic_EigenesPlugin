@@ -2,5 +2,7 @@
 	"appId": "de.mide.ionic.plugintest",
 	"appName": "Plugin-Test",
 	"webDir": "www",
-	"bundledWebRuntime": false
+	"server": {
+		"androidScheme": "https"
+	}
 }

@@ -4,7 +4,9 @@ const config: CapacitorConfig = {
   appId: 'de.mide.ionic.plugintest',
   appName: 'Plugin-Test',
   webDir: 'www',
-  bundledWebRuntime: false
+  server: {
+    androidScheme: 'https'
+  }
 };
 
 export default config;

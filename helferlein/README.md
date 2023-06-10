@@ -1,6 +1,6 @@
 # helferlein
 
-Beispiel für eigenes Capacitor-Plugin
+Beispiel für eigenes Ionic-Plugin
 
 ## Install
 

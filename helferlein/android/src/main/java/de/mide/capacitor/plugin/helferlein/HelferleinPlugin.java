@@ -3,11 +3,13 @@ package de.mide.capacitor.plugin.helferlein;
 import android.os.SystemClock;
 import android.util.Log;
 
+
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
+
 
 @CapacitorPlugin(name = "Helferlein")
 public class HelferleinPlugin extends Plugin {
@@ -60,5 +62,5 @@ public class HelferleinPlugin extends Plugin {
                 Log.w(tag4logging,
                         "Nachricht für unbekanntes Log-Level \"" + level + "\": " + logString);
         }
-    }    
+    }
 }

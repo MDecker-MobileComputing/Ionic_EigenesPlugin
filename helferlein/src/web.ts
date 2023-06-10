@@ -5,6 +5,7 @@ import type { HelferleinPlugin } from './definitions';
 export class HelferleinWeb extends WebPlugin implements HelferleinPlugin {
 
   async echo(options: { value: string }): Promise<{ value: string }> {
+    
     console.log('ECHO', options);
     return options;
   }

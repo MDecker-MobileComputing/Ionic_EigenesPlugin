@@ -8,9 +8,13 @@ import { Helferlein } from "helferlein";
 })
 export class HomePage {
 
+  /** Uptime-Wert, von Plugin abgefragt. */
   public uptimeString : string = "";
 
 
+  /**
+   * Button-Event-Handler
+   */
   public async onUptimeHolenButton() {
 
      const ergebnis = await Helferlein.holeUptime();
